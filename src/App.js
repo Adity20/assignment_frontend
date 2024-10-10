@@ -14,7 +14,7 @@ const CryptoStats = () => {
   const [selectedCoin, setSelectedCoin] = useState(coins[0].id);
   const [stats, setStats] = useState(null);
   const [deviation, setDeviation] = useState(null);
-  const [historicalData, setHistoricalData] = useState([]);
+  const [historicalData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
